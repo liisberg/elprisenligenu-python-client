@@ -12,9 +12,9 @@ from elprisenligenu import Client
 
 c = Client()
 
-start = datetime.date.today() - datetime.timedelta(days=1)
-end = datetime.date.today()
+s = datetime.date.today() - datetime.timedelta(days=1)
+e = datetime.date.today()
 
-prices = c.get_prices(start=start, end=end)
+p = c.get_prices(start=s, end=e)
 
 ```
